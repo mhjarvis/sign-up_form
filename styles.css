@@ -23,8 +23,19 @@ body {
     margin-top: 40%;
 }
 
-.left-side-banner div {
+.left-side-banner h1 {
     font-size: 5rem;
     color: white;
-    
+}
+
+.photo-caption {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.photo-caption a {
+    color: white;
 }
