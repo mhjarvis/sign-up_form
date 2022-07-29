@@ -8,7 +8,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    margin: 0 12.5vw;
+    margin: 0 10vw;
     background-color: rgb(10, 10, 10);
 }
 
@@ -18,7 +18,7 @@ body {
     background-image: url("./images/green-leaves.jpg");
     background-size: cover;
     position: relative;
-    width: 27.5vw;
+    width: 30vw;
     height: 100vh;
 }
 
@@ -29,7 +29,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 9rem;
-    margin-top: 30vh;
+    margin-top: 20vh;
+}
+
+.odin-img {
+    height: 100px;
+    margin-right: 0.5vw;
 }
 
 .left-side-banner h1 {
@@ -54,26 +59,29 @@ body {
 .right-side {
     position: relative;
     background-color: white;
-    width: 47.5vw;
+    width: 48vw;
     height: 100vh;
 }
 
 .right-side-header {
     display: flex;
     flex-direction: column;
-    height: 33.3%;
+    height: 35vh;
     background-color: rgb(242, 242, 242);
 }
 
-.part-1, .part-2 {
+.right-side-header-div {
     font-size: 1.5rem;
-    margin-left: 3vw;
-    margin-right: 10vw;
+    font-weight: 700;
+    margin: 15vh 3vw;
 }
 
 .part-1 {
-    margin-top: 15%;
 }
 .part-2 {
     margin-top: 5%;
+}
+
+em {
+    font-style: italic;
 }
