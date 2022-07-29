@@ -2,15 +2,17 @@
 
 body {
     display: flex;
-    margin: 0 10%;
-    background-color: black;
+    margin: 0 12.5%;
+    background-color: rgb(10, 10, 10);
 }
+
+/* Left-side Banner */
 
 .left-side {
     background-image: url("./images/green-leaves.jpg");
     background-size: cover;
     position: absolute;
-    width: 30%;
+    width: 27.5%;
     height: 100%;
 }
 
@@ -38,4 +40,14 @@ body {
 
 .photo-caption a {
     color: white;
+}
+
+/* Right-side Banner */
+
+.right-side {
+    position: absolute;
+    background-color: white;
+    width: 47.5%;
+    height: 100%;
+    left: 40%;
 }
