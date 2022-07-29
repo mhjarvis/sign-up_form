@@ -33,7 +33,7 @@ body {
 }
 
 .odin-img {
-    height: 100px;
+    height: min(100px, 100%);
     margin-right: 0.5vw;
 }
 
