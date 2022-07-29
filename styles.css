@@ -6,10 +6,12 @@
 }
 
 body {
+    --background-black: rgb(10, 10, 10);
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     margin: 0 10vw;
-    background-color: rgb(10, 10, 10);
+    background-color: var(--background-black);
 }
 
 /* Left-side Banner */
