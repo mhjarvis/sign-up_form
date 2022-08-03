@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: black;
 }
 /* #container {
 	display: flex;
@@ -33,13 +34,15 @@ body {
 } */
 
 /* MAIN BODY LAYOUTS */
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1024px;
-    width: 1440px;
-    background-color: black;
+    --variable-width: 1440px;
+    width: var(--variable-width);
+    height: calc(0.5 * var(--variable-width));
+    background-color: green;
 }
 
 
@@ -59,9 +62,13 @@ body {
     background-color: green;
 }
  */
+
 /* LEFT-SECTION LAYOUT */
 
 .section-left {
+
+
+
 /*     display: flex;
     justify-content: center;
     align-items: center;
