@@ -5,13 +5,20 @@
     src: url(./css/Norse-Bold.otf);
 }
 
+html {
+    
+}
+
 body {
     --background-black: rgb(10, 10, 10);
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    margin: 0 10vw;
-    background-color: var(--background-black);
+    justify-content:center;
+    position: absolute;
+    top: 0;bottom: 0;
+/*     margin:  auto 10vw;
+ */    background-color: var(--background-black);
 }
 
 /* Left-side Banner */
@@ -19,9 +26,11 @@ body {
 .left-side {
     background-image: url("./images/green-leaves.jpg");
     background-size: cover;
-    position: relative;
+    
     width: 30vw;
-    height: 100vh;
+/*     height: 100vh;
+ */    max-height: 1000px;
+
 }
 
 .left-side-banner {
@@ -63,6 +72,7 @@ body {
     background-color: white;
     width: 48vw;
     height: 100vh;
+    max-height: 1000px;
 }
 
 .right-side-header {
