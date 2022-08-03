@@ -34,8 +34,20 @@ body {
     background-size: cover;
     width: 37%;
     height: 100%;
-    background-color: blue;
 }
+
+.odin-banner {
+    font-family: Norse-Bold, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+    height: 150px;
+}
+
+
 
 /* RIGHT-SECTION LAYOUT */
 
