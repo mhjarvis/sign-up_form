@@ -5,15 +5,43 @@
     src: url(./css/Norse-Bold.otf);
 }
 
-/* MAIN BODY LAYOUTS */
-.parent-wrapper {
-    background-color: green; 
-    position: relative; 
-    width: 100%; 
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */ 
-    max-height: 1000px;
-    max-width: 1000px;
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+/* #container {
+	display: flex;
+  box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 6px solid black;
+	resize: both;
+	overflow: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+ */
+/* #iconHolder {
+	width: min(150px, 100%);
+	height: min(150px, 100%);
+  box-sizing: border-box;
+  border: 6px solid blue;
+} */
+
+/* MAIN BODY LAYOUTS */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 1440px;
+    background-color: black;
+}
+
 
 /* .left-section {
     height: 100%;
@@ -33,7 +61,26 @@
  */
 /* LEFT-SECTION LAYOUT */
 
-
+.section-left {
+/*     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: black; */
+}
 
 /* RIGHT-SECTION LAYOUT */
 
+.section-right {
+/*     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: green; */
+}
+/* .main {
+    width: clamp(200px, 500px 800px);
+    height: min(500px, 100%);
+} */
