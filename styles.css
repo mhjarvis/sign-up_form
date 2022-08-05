@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-.banner-image-credits a {
+.banner-image-credits a {t
     color: white;
 }
 
@@ -74,15 +74,26 @@ body {
 .section-right {
     width: 63%;
     height: 100%;
-    background-color: pink;
+    background-color: white;
 }
 
 .section-right-top {
-    margin-top: 10%;
+    background-color: rgb(249, 249, 249);
+    height: calc((1/3) * 100%)
 }
 
 .sign-up-text {
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 0  15% 0 5%;
+    padding: 10% 15% 0 5%;
+}
+
+.section-right-middle {
+    background-color: white;
+    height: calc((1/3) * 100%)
+}
+
+.section-right-bottom {
+    background-color: rgb(249, 249, 249);
+    height: calc((1/3) * 100%)
 }
