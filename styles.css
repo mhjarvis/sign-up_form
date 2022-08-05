@@ -60,7 +60,7 @@ body {
 .banner-image-credits {
     color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: 1%;
     width: 100%;
     text-align: center;
 }
@@ -74,5 +74,15 @@ body {
 .section-right {
     width: 63%;
     height: 100%;
-    background-color: white;
+    background-color: pink;
+}
+
+.section-right-top {
+    margin-top: 10%;
+}
+
+.sign-up-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0  15% 0 5%;
 }
