@@ -34,6 +34,7 @@ body {
     background-size: cover;
     width: 37%;
     height: 100%;
+    position: relative;
 }
 
 .odin-banner {
@@ -43,8 +44,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 45%;
+    margin-top: 40%;
     height: 150px;
+    background:rgb(0, 0, 0, .5);
+}
+
+.banner-image {
+    max-height: 75%;
+}
+
+.banner-title {
+    font-size: 5.5rem;
+}
+
+.banner-image-credits {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-image-credits a {
+    color: white;
 }
 
 /* RIGHT-SECTION LAYOUT */
