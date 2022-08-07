@@ -144,3 +144,20 @@ textarea {
 button {
     margin-left: .5em;
 }
+
+form {
+    display: flex;
+    margin: 2% 5%;
+}
+
+.left-form {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+
+.right-form {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
