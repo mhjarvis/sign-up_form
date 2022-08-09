@@ -113,7 +113,11 @@ form {
 
 }
 
-.first-column, .second-column {
+.first-column {
+    margin-left: 5%;
+}
+
+.second-column {
     margin-left: 5%;
 }
 
@@ -129,3 +133,20 @@ form {
 }
 
 /* RIGHT-BOTTOM-SECTION LAYOUT */
+
+.right-bottom {
+    margin: 5%;
+}
+
+.create-account-button {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(70, 97, 70);
+    color: white;
+}
+
+.login-text {
+    margin-top: 2%;
+    font-size: 1.2rem;
+}
