@@ -88,7 +88,7 @@ body {
 
 .section-right-middle {
     background-color: white;
-    height: calc((1/3.5) * 100%);
+    height: calc((1/3) * 100%);
 
 }
 
@@ -128,6 +128,11 @@ form {
     flex-direction: column;
     color:rgba(17, 17, 17, 0.5);
     margin-bottom: 1%;
+}
+
+
+.input input:invalid {
+    border-color: red;
 }
 
 .input input {

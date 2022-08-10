@@ -32,40 +32,39 @@
                         <div class="first-column">
                             <div class="input">     <!-- First Name -->
                                 <label for="firstName">FIRST NAME</label>
-                                <input type="text" id="firstName" name="firstName">
+                                <input type="text" id="firstName" name="firstName" placeholder="John">
                             </div>
                             <div class="input">     <!-- Email -->
                                 <label for="email">EMAIL</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" placeholder="john.smith@email.com">
                             </div>
                             <div class="input">     <!-- Password -->
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" class="error" name="password">
+                                <input type="password" id="password" class="error" name="password" minlength="8" required>
                             </div>
                         </div>
                         <!-- Second Column of Form -->
                         <div class="second-column">
                             <div class="input">     <!-- Last Name -->
                                 <label for="lastName">LAST NAME</label>
-                                <input type="text" id="lastName" name="lastName">
+                                <input type="text" id="lastName" name="lastName" placeholder="Smith">
                             </div>
                             <div class="input">     <!-- Phone Number -->
                                 <label for="phoneNumber">PHONE NUMBER</label>
-                                <input type="text" id="phoneNumber" name="phoneNumber">
+                                <input type="number" id="phoneNumber" name="phoneNumber" minlength="10" placeholder="222.222.2222">
                             </div>
                             <div class="input">     <!-- Confirm Password -->
                                 <label for="confirmPassword">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirmPassword" class="error" name="confirmPasword">
+                                <input type="password" id="confirmPassword" class="error" name="confirmPasword" minlength="8" required>
                             </div>
-                        </div>
-                        
+                        </div> 
                     </div>
-            <div class="right-bottom">
-                <button class="create-account-button">
-                    Create Account
-                </button>
-                <h2 class="login-text">Already have an account? <a href="">Log in</a></h2>
-            </div>                    
+                    <div class="right-bottom">
+                        <button type="submit" class="create-account-button">
+                            Create Account
+                        </button>
+                        <h2 class="login-text">Already have an account? <a href="">Log in</a></h2>
+                    </div>                    
                 </form>
             </div>
 
